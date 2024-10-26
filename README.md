@@ -18,8 +18,17 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+    a=str(input())
+    b=str(input())
+    temp=a
+    a=b
+    b=temp
+    print(f"Swapped values are: {a} {b}")
 
-
+## OUTPUT :
+![IMAGE1](<Screenshot 2024-10-26 201958.png>)
+![image 2](<Screenshot 2024-10-26 202006.png>)
+![image 3](<Screenshot 2024-10-26 202016.png>)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
